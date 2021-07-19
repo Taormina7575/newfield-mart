@@ -3,6 +3,7 @@ import { NavLink } from "react-router-dom";
 import "./../styles/Header.css";
 import newpylogo from './../assets/newpylogo.png'
 import facebookLogo from './../assets/facebookLogo.png'
+import googlelogo from './../assets/googlelogo.png'
 
 export default function Header() {
   return (
@@ -12,6 +13,13 @@ export default function Header() {
         <a href='https://www.facebook.com/Newfield-Food-Mart-102478735076598/'>
           <img alt='facebook logo' src={facebookLogo} className='facebookLogo'></img>
         </a>
+        <a href="https://www.google.com/maps/place/newfield+food+mart/@39.5535484,-74.999819,17z/data=!3m1!5s0x89c72ceca532cc07:0x8f8e0ace950ea61f!4m7!3m6!1s0x89c72db785ced0cd:0x4a27f2019e80e46d!8m2!3d39.5535443!4d-74.9976303!9m1!1b1">
+              <img
+                alt="google logo"
+                src={googlelogo}
+                className="facebookLogo2"
+              ></img>
+            </a>
       </div>
       <div className='content'>
         <img alt='Newfield Mart Logo' src={newpylogo} className='newpyLogo'></img>

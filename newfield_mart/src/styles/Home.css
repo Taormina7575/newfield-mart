@@ -235,12 +235,13 @@
     .store-info p {
         margin: 0 auto;
         text-align: justify;
-        font-size: 1.8rem;
+        font-size: 1.9rem;
         font-family: 'Roboto', sans-serif;
         margin-top: 1.5rem;
         width: 80%;
         margin-bottom: 1.5rem;
         font-weight: 900;
+        text-indent: 3rem;
     }
 
     .store-button {
@@ -264,10 +265,7 @@
     }
 
     .menu-about-section {
-      display: flex;
-      flex-direction: column;
-      justify-content: center;
-      align-items: center;
+      text-align: center;
       width: 50%;
     }
 
@@ -283,6 +281,15 @@
         padding: 1rem;
         width: 80%;
         text-align: center;
+    }
+
+    .menu-about-section img {
+      width: 90%;
+      margin: 1rem;
+    }
+
+    .menu-about-section button {
+      margin: 0 auto;
     }
     
     .home-main-heading {

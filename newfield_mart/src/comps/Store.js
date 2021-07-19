@@ -1,14 +1,24 @@
 import React from "react";
 import "./../styles/Store.css";
 import AliceCarousel from "react-alice-carousel";
+import store1 from './../assets/store1.jpg'
+import store2 from './../assets/store2.jpg'
+import store3 from './../assets/store3.jpg'
+import store4 from './../assets/store4.jpg'
+import store5 from './../assets/store5.jpg'
+import feature1 from './../assets/feature1.jpg'
+import menu1 from './../assets/menu1.jpg'
+import vape1 from './../assets/vape1.jpg'
+import service1 from './../assets/service1.jpg'
+import lottery1 from './../assets/lottery1.jpg'
 
 export default function Store() {
   const imgSources = [
-    "https://external-content.duckduckgo.com/iu/?u=http%3A%2F%2Fwallpaperheart.com%2Fwp-content%2Fuploads%2F2018%2F03%2FDesktop-Wallpapers-landscape-clear_water.jpg&f=1&nofb=1",
-    "https://external-content.duckduckgo.com/iu/?u=http%3A%2F%2Fwallup.net%2Fwp-content%2Fuploads%2F2016%2F02%2F183171-mountain-lake.jpg&f=1&nofb=1",
-    "https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fwallup.net%2Fwp-content%2Fuploads%2F2016%2F01%2F51768-trees-nature-1.jpg&f=1&nofb=1",
-    "https://external-content.duckduckgo.com/iu/?u=http%3A%2F%2Fwallup.net%2Fwp-content%2Fuploads%2F2015%2F12%2F156478-reflection-river-arch-trees-nature-landscape-water.jpg&f=1&nofb=1",
-    "https://external-content.duckduckgo.com/iu/?u=http%3A%2F%2Fwww.pixelstalk.net%2Fwp-content%2Fuploads%2F2016%2F11%2FCalm-Desktop-Wallpaper.jpg&f=1&nofb=1",
+    store1,
+    store2,
+    store3,
+    store4,
+    store5
   ];
 
   const responsive = {
@@ -40,57 +50,56 @@ export default function Store() {
             <ul>
                 <li>NJ Lottery Services</li>
                 <li>Deli, Homemade Food, and Krispy Krunchy Chicken</li>
-                <li>Tobacco, Incense, Bowls, etc.</li>
+                <li>Tobacco, Incense, CBD, etc.</li>
                 <li>ATM, Firewood, Propane, and Automotive Supplies</li>
             </ul>
         </div>
         <div className='feature-image'>
-            <img src='https://external-content.duckduckgo.com/iu/?u=http%3A%2F%2Fwallpaperheart.com%2Fwp-content%2Fuploads%2F2018%2F03%2FDesktop-Wallpapers-landscape-clear_water.jpg&f=1&nofb=1' alt='krispy chicken logo' className='store-picture-feature'></img>
-            <p>Featured Item Caption</p>
+            <img src={feature1} alt='krispy chicken logo' className='store-picture-feature'></img>
         </div>
       </section>
       <section className='store-sections'>
         <div className='store-section-category'>
             <h2>Feeling Lucky?</h2>
-            <img src='https://external-content.duckduckgo.com/iu/?u=http%3A%2F%2Fwallpaperheart.com%2Fwp-content%2Fuploads%2F2018%2F03%2FDesktop-Wallpapers-landscape-clear_water.jpg&f=1&nofb=1' alt='krispy chicken logo' className='store-picture-category'></img>
+            <img src={lottery1} alt='krispy chicken logo' className='store-picture-category'></img>
             <div>
                 <ul>
-                    <li>feature 1</li>
-                    <li>feature 2</li>
-                    <li>feature 3</li>
+                    <li>Large Variety of Lottery Tickets</li>
+                    <li>Lottery Ticket Scanner</li>
+                    <li>Powerball</li>
                 </ul>
             </div>
         </div>
         <div className='store-section-category'>
-            <h2>Tobacco Paraphernalia</h2>
-            <img src='https://external-content.duckduckgo.com/iu/?u=http%3A%2F%2Fwallpaperheart.com%2Fwp-content%2Fuploads%2F2018%2F03%2FDesktop-Wallpapers-landscape-clear_water.jpg&f=1&nofb=1' alt='krispy chicken logo' className='store-picture-category'></img>
+            <h2>Head Shop</h2>
+            <img src={vape1} alt='krispy chicken logo' className='store-picture-category'></img>
             <div>
                 <ul>
-                    <li>feature 1</li>
-                    <li>feature 2</li>
-                    <li>feature 3</li>
+                    <li>Tobacco and Vaporizer Products</li>
+                    <li>CBD, Kratom, etc.</li>
+                    <li>Bongs, Bowls, Pipes, etc.</li>
                 </ul>
             </div>
         </div>
         <div className='store-section-category'>
             <h2>Food and Refreshment</h2>
-            <img src='https://external-content.duckduckgo.com/iu/?u=http%3A%2F%2Fwallpaperheart.com%2Fwp-content%2Fuploads%2F2018%2F03%2FDesktop-Wallpapers-landscape-clear_water.jpg&f=1&nofb=1' alt='krispy chicken logo' className='store-picture-category'></img>
+            <img src={menu1} alt='krispy chicken logo' className='store-picture-category'></img>
             <div>
                 <ul>
-                    <li>feature 1</li>
-                    <li>feature 2</li>
-                    <li>feature 3</li>
+                    <li>Deli, Artisan Meats and Cheeses</li>
+                    <li>Homemade Food and Krispy Chicken</li>
+                    <li>A Large Variety of Snacks/Sides</li>
                 </ul>
             </div>
         </div>
         <div className='store-section-category'>
             <h2>Assorted Services</h2>
-            <img src='https://external-content.duckduckgo.com/iu/?u=http%3A%2F%2Fwallpaperheart.com%2Fwp-content%2Fuploads%2F2018%2F03%2FDesktop-Wallpapers-landscape-clear_water.jpg&f=1&nofb=1' alt='krispy chicken logo' className='store-picture-category'></img>
+            <img src={service1} alt='krispy chicken logo' className='store-picture-category'></img>
             <div>
                 <ul>
-                    <li>feature 1</li>
-                    <li>feature 2</li>
-                    <li>feature 3</li>
+                    <li>ATM Machine</li>
+                    <li>Firewood and Propane</li>
+                    <li>Automotive Fluids</li>
                 </ul>
             </div>
         </div>

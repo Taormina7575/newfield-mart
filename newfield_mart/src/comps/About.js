@@ -1,13 +1,20 @@
 import React from "react";
 import "./../styles/About.css";
+import gal1 from './../assets/gal1.jpg'
+import gal2 from './../assets/gal2.jpg'
+import gal3 from './../assets/gal3.jpg'
+import gal4 from './../assets/gal4.jpg'
+import gal5 from './../assets/gal5.jpg'
+import gal6 from './../assets/gal6.jpg'
 
 
 const imgSources = [
-    "https://external-content.duckduckgo.com/iu/?u=http%3A%2F%2Fwallpaperheart.com%2Fwp-content%2Fuploads%2F2018%2F03%2FDesktop-Wallpapers-landscape-clear_water.jpg&f=1&nofb=1",
-    "https://external-content.duckduckgo.com/iu/?u=http%3A%2F%2Fwallup.net%2Fwp-content%2Fuploads%2F2016%2F02%2F183171-mountain-lake.jpg&f=1&nofb=1",
-    "https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fwallup.net%2Fwp-content%2Fuploads%2F2016%2F01%2F51768-trees-nature-1.jpg&f=1&nofb=1",
-    "https://external-content.duckduckgo.com/iu/?u=http%3A%2F%2Fwallup.net%2Fwp-content%2Fuploads%2F2015%2F12%2F156478-reflection-river-arch-trees-nature-landscape-water.jpg&f=1&nofb=1",
-    "https://external-content.duckduckgo.com/iu/?u=http%3A%2F%2Fwww.pixelstalk.net%2Fwp-content%2Fuploads%2F2016%2F11%2FCalm-Desktop-Wallpaper.jpg&f=1&nofb=1",
+    gal1,
+    gal2,
+    gal3,
+    gal4,
+    gal5,
+    gal6
   ];
 
 export default function About() {
@@ -22,23 +29,7 @@ export default function About() {
         ></img>
         <h2>Our Journey</h2>
         <p>
-          Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam vel
-          placerat turpis. Mauris id erat sit amet velit feugiat accumsan.
-          Vestibulum ac justo posuere, consectetur metus pharetra, dapibus
-          magna. Sed at felis volutpat, ultrices felis ut, vestibulum ligula.
-          Duis nec arcu sed sapien interdum aliquet quis vel libero. Nam laoreet
-          suscipit suscipit. Suspendisse at diam mauris. Proin id sapien massa.
-          Maecenas congue feugiat neque quis accumsan.<br/> <br/> Pellentesque nec pretium
-          magna, a pulvinar ex. Phasellus venenatis justo massa, id rhoncus mi
-          mollis quis. Aenean non purus at ante elementum consequat vitae non
-          arcu. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices
-          posuere cubilia curae; Sed vulputate efficitur nisi, at vehicula augue
-          feugiat sed. Nunc ornare venenatis eros at condimentum. Donec at
-          fringilla sapien, sit amet volutpat sem. Vivamus dui nulla, vestibulum
-          ac facilisis a, efficitur non metus. Donec lacinia enim nec ligula
-          elementum interdum. Sed eu leo quam. Donec ut odio convallis, iaculis
-          nulla id, porttitor nunc. Morbi dapibus finibus libero, in auctor
-          libero posuere non.
+          Jignesh Patel, otherwise known as Jimmy, was born in India and moved to America in 2007. Upon arriving in America he studied at the University of Virginia, and then entered the workforce. He worked a variety of jobs in convience stores, gas stations, etc. He also worked in hospitality at a motel for three years, while saving up to fund his future buisness ventures. In 2018 he married his current wife, Stuti Patel. The following year she joined Jignesh in America, and they had their first son, Ayaan, or God's Gift. In 2020 a friend of Jignesh, Priyank Patel informed him of the store location where Newfield Food Mart now sits, which was empty at the time. Jignesh brought his wife and mother to check the place out, and upon deciding it was suitable, with the help of his friend Priyank, Jignesh opened Newfield Food Mart. Now he is gradually expanding, offering new items and services, such as Krispy Krunchy Chicken. He serves the Newfield community everyday and has built relationships with many local residents who appreciate the service, conversation, and friendship of him and his family.
         </p>
         <h2>Gallery</h2>
         <div className='gallery-container'>

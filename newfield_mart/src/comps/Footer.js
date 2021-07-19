@@ -22,7 +22,7 @@ export default function Footer() {
           Phone Number: (856) 839-0203
           </p>
           <p className="footerText">
-          Email:
+          <a href="mailto:newfieldfoodmart1381@gmail.com">Email: newfieldfoodmart1381@gmail.com</a>
           </p>
           <div className='share'>
             <h3 className="footerText"> Share & Review: </h3>
@@ -44,7 +44,11 @@ export default function Footer() {
         </div>
         <div className="hours">
           <h3 className="footerHeading">Store Hours</h3>
-          <p className="footerText"></p>
+          <p className="footerText">
+            Mon - Fri: 5:00am - 8:30pm<br></br>
+            Saturday: 5:30am - 8:00pm<br></br>
+            Sunday: 8:00am - 7:00pm
+          </p>
         </div>
       </div>
     </footer>

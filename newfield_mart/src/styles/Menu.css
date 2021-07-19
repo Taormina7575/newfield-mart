@@ -103,6 +103,35 @@
     letter-spacing: .5rem;
 }
 
+#deli-menu {
+    text-align: center;
+}
+
+#deli-menu img {
+    width: 70%;
+}
+
+.deli-heading {
+    width: 70%;
+    margin: 1rem auto;
+    border-top: 1px solid black;
+    border-bottom: 1px solid black;
+    display: flex;
+    justify-content: space-around;
+}
+
+.deli-heading h2 {
+    color: #D97179;
+    font-size: 4rem;
+    font-family: 'Fredoka One', cursive;
+    background-color: #ECD891;
+    border-radius: 1rem;
+    padding: .5rem;
+    width: 95%;
+    text-align: center;
+    margin: 1.5rem auto;
+}
+
 @media screen and (max-width: 1000px) {
     .alice-carousel ul li img {
       width: 100%;
@@ -132,6 +161,14 @@
     }
 
     #krispy-menu img {
+        width: 100%;
+    }
+
+    #deli-menu img {
+        width: 100%;
+    }
+
+    .deli-heading {
         width: 100%;
     }
 

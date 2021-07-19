@@ -3,6 +3,7 @@ import "./../styles/Menu.css";
 import AliceCarousel from "react-alice-carousel";
 import newfieldmenu from "./../assets/newfieldmenu.jpg";
 import krispymenu from './../assets/krispymenu.png'
+import delimenu from './../assets/delimenu.jpg'
 
 export default function Menu() {
   const imgSources = [
@@ -45,11 +46,17 @@ export default function Menu() {
         />
         <img src={newfieldmenu} alt="Newfield Food Mart Menu"></img>
       </section>
+      <section id='deli-menu'>
+        <div className="deli-heading">
+          <h2>Deli menu</h2>
+        </div>
+        <img src={delimenu} alt="Deli Menu"></img>
+      </section>
       <section id="krispy-menu">
         <div className='krispy-header'>
         <h2>Krispy Krunchy Chicken</h2>
         </div>
-        <img src={krispymenu} alt="Newfield Food Mart Menu"></img>
+        <img src={krispymenu} alt="Krispy Chicken Menu"></img>
       </section>
     </main>
   );
