@@ -5,9 +5,13 @@
   padding: 0;
 }
 
+.famImg {
+  display: flex;
+}
+
 .about-intro-img {
     width: 100%;
-    height: 35rem;
+    height: 65rem;
 }
 
 .about-main-heading {
@@ -35,7 +39,7 @@ main {
   padding: 0.5rem;
   width: 50%;
   text-align: center;
-  margin: 0 auto;
+  margin: 1rem auto;
 }
 
 .about-content p {
@@ -80,6 +84,10 @@ main {
 
   .gallery-image {
     width: 95%;
+  }
+
+  .famImg {
+    flex-direction: column;
   }
 
 }

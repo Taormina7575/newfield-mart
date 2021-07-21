@@ -1,17 +1,22 @@
 import React from "react";
 import "./../styles/Menu.css";
 import AliceCarousel from "react-alice-carousel";
-import newfieldmenu from "./../assets/newfieldmenu.jpg";
+import newMen from "./../assets/newMen.png";
 import krispymenu from './../assets/krispymenu.png'
 import delimenu from './../assets/delimenu.jpg'
+import men1 from './../assets/men1.jpg'
+import men2 from './../assets/men2.jpg'
+import men3 from './../assets/men3.jpg'
+import men4 from './../assets/men4.jpg'
+import men5 from './../assets/men5.jpg'
 
 export default function Menu() {
   const imgSources = [
-    "https://external-content.duckduckgo.com/iu/?u=http%3A%2F%2Fwallpaperheart.com%2Fwp-content%2Fuploads%2F2018%2F03%2FDesktop-Wallpapers-landscape-clear_water.jpg&f=1&nofb=1",
-    "https://external-content.duckduckgo.com/iu/?u=http%3A%2F%2Fwallup.net%2Fwp-content%2Fuploads%2F2016%2F02%2F183171-mountain-lake.jpg&f=1&nofb=1",
-    "https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fwallup.net%2Fwp-content%2Fuploads%2F2016%2F01%2F51768-trees-nature-1.jpg&f=1&nofb=1",
-    "https://external-content.duckduckgo.com/iu/?u=http%3A%2F%2Fwallup.net%2Fwp-content%2Fuploads%2F2015%2F12%2F156478-reflection-river-arch-trees-nature-landscape-water.jpg&f=1&nofb=1",
-    "https://external-content.duckduckgo.com/iu/?u=http%3A%2F%2Fwww.pixelstalk.net%2Fwp-content%2Fuploads%2F2016%2F11%2FCalm-Desktop-Wallpaper.jpg&f=1&nofb=1",
+    men1,
+    men2,
+    men3,
+    men4,
+    men5,
   ];
 
   const responsive = {
@@ -44,7 +49,7 @@ export default function Menu() {
           disableButtonsControls={true}
           autoPlayStrategy="none"
         />
-        <img src={newfieldmenu} alt="Newfield Food Mart Menu"></img>
+        <img src={newMen} alt="Newfield Food Mart Menu"></img>
       </section>
       <section id='deli-menu'>
         <div className="deli-heading">
