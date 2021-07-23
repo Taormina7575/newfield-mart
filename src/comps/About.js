@@ -17,8 +17,8 @@ export default function About() {
       <section className="about-content">
         <h1 className="about-main-heading">The Newfield Food Mart Story</h1>
         <div className="famImg">
-          <img src={fam1} alt="" className="about-intro-img"></img>
-          <img src={friendfam} alt="" className="about-intro-img"></img>
+          <img src={fam1} alt="Newfield Food Mart Family" className="about-intro-img"></img>
+          <img src={friendfam} alt="Family of Priyank" className="about-intro-img"></img>
         </div>
         <h2>Our Journey</h2>
         <p>
@@ -47,7 +47,7 @@ export default function About() {
               <img
                 src={imgSrc}
                 key={idx}
-                alt=""
+                alt="Newfield Food Mart"
                 className="gallery-image"
               ></img>
             );

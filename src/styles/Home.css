@@ -1,6 +1,6 @@
 
     .alice-carousel ul li img{
-        object-fit: cover;
+        object-fit: fill;
       }
 
       .alice-carousel .animated {

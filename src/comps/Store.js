@@ -27,7 +27,7 @@ export default function Store() {
   };
 
   const images = imgSources.map((url, idx) => {
-    return <img src={url} alt="" key={idx} className="carImg"></img>;
+    return <img src={url} alt="Newfield Food Mart" key={idx} className="carImg"></img>;
   });
 
   return (
@@ -55,13 +55,13 @@ export default function Store() {
             </ul>
         </div>
         <div className='feature-image'>
-            <img src={feature1} alt='krispy chicken logo' className='store-picture-feature'></img>
+            <img src={feature1} alt='feature images' className='store-picture-feature'></img>
         </div>
       </section>
       <section className='store-sections'>
         <div className='store-section-category'>
             <h2>Feeling Lucky?</h2>
-            <img src={lottery1} alt='krispy chicken logo' className='store-picture-category'></img>
+            <img src={lottery1} alt='lottery tickets' className='store-picture-category'></img>
             <div>
                 <ul>
                     <li>Large Variety of Lottery Tickets</li>
@@ -72,7 +72,7 @@ export default function Store() {
         </div>
         <div className='store-section-category'>
             <h2>Head Shop</h2>
-            <img src={vape1} alt='krispy chicken logo' className='store-picture-category'></img>
+            <img src={vape1} alt='head shop products' className='store-picture-category'></img>
             <div>
                 <ul>
                     <li>Tobacco and Vaporizer Products</li>
@@ -83,7 +83,7 @@ export default function Store() {
         </div>
         <div className='store-section-category'>
             <h2>Food and Refreshment</h2>
-            <img src={menu1} alt='krispy chicken logo' className='store-picture-category'></img>
+            <img src={menu1} alt='newfield food mart food' className='store-picture-category'></img>
             <div>
                 <ul>
                     <li>Deli, Artisan Meats and Cheeses</li>
@@ -94,7 +94,7 @@ export default function Store() {
         </div>
         <div className='store-section-category'>
             <h2>Assorted Services</h2>
-            <img src={service1} alt='krispy chicken logo' className='store-picture-category'></img>
+            <img src={service1} alt='atm, wood, and propane' className='store-picture-category'></img>
             <div>
                 <ul>
                     <li>ATM Machine</li>

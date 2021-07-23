@@ -23,7 +23,7 @@ export default function Home() {
   };
 
   const images = imgSources.map((url, idx) => {
-    return <img src={url} alt="" key={idx} className="carImg"></img>;
+    return <img src={url} alt="Newfield Food Mart" key={idx} className="carImg"></img>;
   });
 
   return (
@@ -72,17 +72,17 @@ export default function Home() {
             ></img>
             <img
               src={dietz}
-              alt="krispy chicken logo"
+              alt="dietz and watson logo"
               className="store-logo"
             ></img>
             <img
               src={liscios}
-              alt="krispy chicken logo"
+              alt="liscios logo"
               className="store-logo"
             ></img>
             <img
               src={njlot}
-              alt="krispy chicken logo"
+              alt="nj lottery logo"
               className="store-logo"
             ></img>
           </div>

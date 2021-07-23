@@ -25,7 +25,7 @@ export default function Menu() {
   };
 
   const images = imgSources.map((url, idx) => {
-    return <img src={url} alt="" key={idx} className="carImg"></img>;
+    return <img src={url} alt="Newfield Food Mart" key={idx} className="carImg"></img>;
   });
 
   return (
